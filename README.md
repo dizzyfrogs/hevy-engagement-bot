@@ -56,6 +56,7 @@ The Hevy Engagement Bot operates by interacting with the Hevy API to simulate us
 ## Proven Results
 
 This bot has been rigorously tested on a dedicated Hevy account. Over a period of just one month, the account's follower count increased from **31 to over 1,000 followers**, demonstrating the effectiveness of taking advantage of engagement techniques.
+![image](https://github.com/user-attachments/assets/b72d5892-df20-4316-b7b9-13990d37d8b1) ➔ ![image](https://github.com/user-attachments/assets/d474a60c-b672-44cf-b57a-ac6b8404a67a)
 
 ## Setup
 
