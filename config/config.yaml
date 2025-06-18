@@ -1,0 +1,29 @@
+# Scheduler Settings
+scheduler:
+  follow_schedule: "0 12 * * *"    # Run at 12 PM daily
+  unfollow_schedule: "0 12 * * *"  # Run at 12 PM daily
+  like_schedule: "0 * * * *"       # Run every hour at minute 0
+
+# API Settings
+api:
+  base_url: "https://api.hevyapp.com"
+  rate_limit_delay: 300  # 5 minutes
+  request_delay:
+    min: 1.5
+    max: 3.0
+
+# Follow Settings
+follow:
+  target_count: 30     # Daily follow limit
+  comment_priority: 2  # Higher priority for users who comment
+  like_priority: 1     # Lower priority for users who only like
+
+# Unfollow Settings
+unfollow:
+  inactive_threshold: 21    # days
+  follow_back_threshold: 7  # days
+  daily_unfollow_cap: 100
+
+# Like Settings
+like:
+  like_cap: 50         # Max number of workouts to like per run
